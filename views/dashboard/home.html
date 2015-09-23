@@ -1,0 +1,32 @@
+<div>
+    <div class="row">
+        <!--div class="col-lg-12">
+            <h1 class="page-header">App board</h1-->
+	<div class="input-group custom-search-form">
+		<input type="text" class="form-control" ng-model="searchKeyword.$" placeholder="Search..."  />
+		 <span class="input-group-btn">
+        	    	<button class="btn btn-default" type="button">
+        	        <i class="fa fa-search"></i>
+        	    </button>
+        	</span>
+	</div>
+        <!--/div-->
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+	 
+    <div class="row">	
+	<stats ng-repeat="item in apps | filter:searchKeyword"  
+		name="{{item.name}}" branch="{{item.default_branch}}" 
+		title="{{item.title}}" colour="primary" type="{{item.cat}}" description="{{item.description}}" >
+	</stats>
+        <!--stats number="12" comments="New comments!" colour="primary" type="comments"></stats>
+        <stats number="12" comments="New tasks!" colour="primary" type="user"></stats>
+        <stats number="18" comments="New orders!" colour="yellow" type="shopping-cart"></stats>
+        <stats number="24" comments="Support tickets!" colour="red" type="support"></stats>
+	<stats number="12" comments="New tasks!" colour="primary" type="user"></stats-->
+    </div>
+    
+    <!-- /.row -->
+  
+</div>
