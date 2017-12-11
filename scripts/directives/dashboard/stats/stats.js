@@ -37,8 +37,7 @@ angular.module('sbAdminApp')
 	        readme: function () {
 			var deferred = $q.defer();			
 
-			$http.get("https://api.github.com/repos/lagendre/"+ title +"/readme?" +
-			  "access_token=0a3acc83f4daabe0e2f58bbe1d5ff68feaca551f")
+			$http.get("https://api.github.com/repos/lagendre/"+ title +"/readme" )
 	 		 .success(function (data) {
 		 
 				    deferred.resolve(data.content);
