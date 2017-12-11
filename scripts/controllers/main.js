@@ -11,7 +11,7 @@ angular.module('sbAdminApp')
 
 	//get my all repos
 	$http.get("https://api.github.com/users/lagendre/repos?" +
-			  "access_token=0a3acc83f4daabe0e2f58bbe1d5ff68feaca551f&per_page=100")
+			  "per_page=100")
 	  .success(function (data) {
 
 	  var apps=[];
