@@ -18,7 +18,7 @@
     <div class="row">	
 	<stats ng-repeat="item in apps | filter:searchKeyword"  
 		name="{{item.name}}" branch="{{item.default_branch}}" 
-		title="{{item.title}}" colour="primary" type="{{item.cat}}" description="{{item.description}}" >
+		title="{{item.title}}" colour="primary" type="{{item.cat}}" description="{{item.description}}" homepage="{{item.homepage}}" >
 	</stats>
         <!--stats number="12" comments="New comments!" colour="primary" type="comments"></stats>
         <stats number="12" comments="New tasks!" colour="primary" type="user"></stats>

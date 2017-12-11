@@ -37,4 +37,22 @@ $(function() {
     if (element.is('li')) {
         element.addClass('active');
     }
+	
+	//copy paste function
+	var clipboard = new Clipboard('.btn');
+
+	clipboard.on('success', function(e) {
+		console.info('Action:', e.action);
+		console.info('Text:', e.text);
+		console.info('Trigger:', e.trigger);
+		alert("Copied(已拷貝):" + e.text );
+		e.clearSelection();
+	});
+
+	clipboard.on('error', function(e) {
+		console.error('Action:', e.action);
+		console.error('Trigger:', e.trigger);
+	});
+
 });
+

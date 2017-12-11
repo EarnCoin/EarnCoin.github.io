@@ -23,29 +23,17 @@ angular.module('sbAdminApp')
 		$rootScope.searchKeyword = { cat: type };
 		return false;
 	}
-	/*
-
-        $scope.selectedMenu = 'dashboard';
-        $scope.collapseVar = 0;
-        $scope.multiCollapseVar = 0;
-        
-        $scope.check = function(x){
-          
-          if(x==$scope.collapseVar)
-            $scope.collapseVar = 0;
-          else
-            $scope.collapseVar = x;
-        };
-        
-        $scope.multiCheck = function(y){
-          
-          if(y==$scope.multiCollapseVar)
-            $scope.multiCollapseVar = 0;
-          else
-            $scope.multiCollapseVar = y;
-        };
-	*/	
 
       }
     }
-  }]);
+  }])
+.directive('fbComments', function() {
+    return {
+        restrict: 'A',
+        link: function(scope, element, attributes) { 
+            element[0].dataset.href = "https://earncoin.github.io";//document.location.href;
+            return typeof FB !== "undefined" && FB !== null ? FB.XFBML.parse(element.parent()[0]) : void 0;
+        }
+    };
+});
+
