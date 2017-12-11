@@ -10,8 +10,7 @@ angular.module('sbAdminApp')
   .controller('MainCtrl', function( $scope, $position, $http ) {
 
 	//get my all repos
-	$http.get("https://api.github.com/users/lagendre/repos?" +
-			  "per_page=100")
+	$http.get("https://api.github.com/users/lagendre/repos")
 	  .success(function (data) {
 
 	  var apps=[];
