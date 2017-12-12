@@ -40,7 +40,9 @@ angular.module('sbAdminApp')
 	
 				var converter = new Showdown.converter();
 				
-				  $scope.details = $sce.trustAsHtml( converter.makeHtml(atob(readme)));
+				
+				//atob(readme)
+				  $scope.details = $sce.trustAsHtml( converter.makeHtml(decodeURIComponent(escape(window.atob(readme)))));
 			  
 				  $scope.cancel = function () {
 					$modalInstance.dismiss('cancel');
