@@ -9,6 +9,7 @@
 angular.module('sbAdminApp')
   .controller('MainCtrl', function( $scope, $position, $http ) {
 
+	
 
 	//get my all repos
 	$http.get("https://api.github.com/users/earncoin/repos")
@@ -37,4 +38,5 @@ angular.module('sbAdminApp')
 	  
 		$scope.apps = apps;
 	});
+
   });

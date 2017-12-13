@@ -4,8 +4,8 @@
   "version": "0.0.2",
   "window": {
     "title": "Earn Coin",
-    "width": 1024,
-    "height": 768,
+    "width": 1200,
+    "height": 800,
     "min_width": 384,
     "min_height": 640,
     "position": "center",
