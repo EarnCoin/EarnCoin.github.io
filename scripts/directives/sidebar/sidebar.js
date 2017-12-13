@@ -26,14 +26,5 @@ angular.module('sbAdminApp')
 
       }
     }
-  }])
-.directive('fbComments', function() {
-    return {
-        restrict: 'A',
-        link: function(scope, element, attributes) { 
-            element[0].dataset.href = "https://earncoin.github.io";//document.location.href;
-            return typeof FB !== "undefined" && FB !== null ? FB.XFBML.parse(element.parent()[0]) : void 0;
-        }
-    };
-});
+  }]);
 
