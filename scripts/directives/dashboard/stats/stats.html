@@ -1,11 +1,10 @@
-<div class="col-lg-3 col-md-6" style="min-width:190px;">
-    <div class="panel panel-{{colour}}">
+<div class="col-lg-3 col-md-6" style="min-width:190px;" ng-click="isActive =!isActive" >
+    <div class="panel panel-{{colour}}" ng-class="{'active': isActive}">
         <div class="panel-heading">
             <div class="row">	
             <div class="col-xs-3">
                    <a href="#" ng-click="open(name,homepage)"><img src="https://raw.githubusercontent.com/earncoin/{{name}}/{{branch}}/icon.png"
 					  style="width:80px; height:80px;"></a>
-<!--a href="#" ng-click="open(name)"><img src="http://placehold.it/80x80" /></a-->
                 </div>
                 <div class="col-xs-9 text-right">
                     <!--div class="huge">{{number}}</div-->
@@ -19,7 +18,7 @@
 			<div ng-switch="cat">
 				
 				<div ng-switch-when="Bitcoin">		
-						<a href="{{homepage}}" target="_blank">
+						<a href="{{homepage}}" target="_blank"  >
 						<span class="pull-left">
 							<i class="fa fa-btc"></i>
 						<b>{{title}}</b>
@@ -42,7 +41,7 @@
                 </div>
 				
 				 <div ng-switch-default>		
-						<a href="{{homepage}}" target="_blank">
+						<a href="{{homepage}}" target="_blank"  >
 						<span class="pull-left">
 							<i class="fa fa-money"></i>
 						<b>{{title}}</b>
