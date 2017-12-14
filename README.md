@@ -36,5 +36,5 @@ BitoEX 是在台灣最有趣的 BTC 服務，因為 BitoEX 直接跟全家便利
 打賞Donate
 <ul>
 <li>比特幣Bitcoin: 31xcuLCmAWuF8CoYvcSd4cGaekvAgGzfkW</li>
-<li>乙太幣Etherum: 0x87206b80d9e40649b9fa807c6e64acf358d30340<li>
+<li>乙太幣Etherum: 0x87206b80d9e40649b9fa807c6e64acf358d30340</li>
 </ul>
