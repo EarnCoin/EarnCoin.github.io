@@ -7,7 +7,7 @@ MaiCoin 最大的問題就是基礎建設似乎不太穩固，許多朋友使用
 BitoEX
 
 BitoEX 是在台灣最有趣的 BTC 服務，因為 BitoEX 直接跟全家便利商店整合，你可以直接在全家透過 BitoEX 購買 BTC！
-
+<img src="https://cdn-images-1.medium.com/max/800/1*YkX7h_xySOq1gitI81Eaig.png" />
 
 另外最近 BitoEX 也啟用的新服務，可以使用 BTC 購買全家的禮卷，再利用禮卷在全家消費。
 
