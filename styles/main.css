@@ -24,7 +24,7 @@ body {
 }
 
 .active {
-	opacity: 0.2;
+	opacity: 0.2 !important;
 }
 
 /* Custom page footer 
