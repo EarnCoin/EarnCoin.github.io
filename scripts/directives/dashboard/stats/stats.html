@@ -16,21 +16,40 @@
         </div>
        
             <div class="panel-footer">
-				<div ng-if="homepage">
-					<a href="{{homepage}}" target="_blank">
-					<span class="pull-left">
-						<i class="fa fa-money"></i>
-					<b>{{title}}</b>
-						</span></a>
-                </div>
-				<div ng-if="!homepage">
+			<div ng-switch="cat">
+				
+				<div ng-switch-when="Bitcoin">		
+						<a href="{{homepage}}" target="_blank">
+						<span class="pull-left">
+							<i class="fa fa-btc"></i>
+						<b>{{title}}</b>
+							</span></a>	
+				 </div>
+				
+				<div ng-switch-when="Scam">
 					<a href="#" >
 					<span class="pull-left">
 						<i class="fa fa-times"></i>
 					<del>{{title}}</del>
 						</span></a>
                 </div>
+				<div ng-switch-when="Wallet">
+					<a href="{{homepage}}" target="_blank">
+					<span class="pull-left">
+						<i class="fa fa-link"></i>
+						{{title}}
+						</span></a>
+                </div>
 				
+				 <div ng-switch-default>		
+						<a href="{{homepage}}" target="_blank">
+						<span class="pull-left">
+							<i class="fa fa-money"></i>
+						<b>{{title}}</b>
+							</span></a>	
+				 </div>
+				 
+			</div>
 				<!--span class="pull-right"><i class="fa fa-download"></i></span-->
                 <div class="clearfix"></div>
             </div>

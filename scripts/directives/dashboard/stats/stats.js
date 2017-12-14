@@ -15,7 +15,7 @@ angular.module('sbAdminApp')
   		scope: {
         'model': '=',
         'title': '@',
-        'number': '@',
+        'cat': '@',
         'name': '@',
         'colour': '@',
         'details':'@',
@@ -68,19 +68,6 @@ angular.module('sbAdminApp')
 
   	};
 
-	/*modal ctrl for github readme markdown
-	var ModalInstanceCtrl = function ($sce, $scope, $modalInstance, readme ) {
-
-		console.log("$scope homepage "+$scope.homepage);
-	
-	var converter = new Showdown.converter();
-	
-	  $scope.details = $sce.trustAsHtml( converter.makeHtml(atob(readme)));
-  
-	  $scope.cancel = function () {
-	    $modalInstance.dismiss('cancel');
-	  };
-	};*/
 	
 	}
   		
