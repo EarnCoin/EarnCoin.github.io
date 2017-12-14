@@ -34,6 +34,7 @@ BitoEX 是在台灣最有趣的 BTC 服務，因為 BitoEX 直接跟全家便利
 來源:https://medium.com/@yurenju/bitcoin-%E6%9C%8D%E5%8B%99%E7%B0%A1%E4%BB%8B-coinbase-maicoin-bitoex-c07ad5cdf07a
 
 打賞Donate
-比特幣Bitcoin: 31xcuLCmAWuF8CoYvcSd4cGaekvAgGzfkW
-乙太幣Etherum: 0x87206b80d9e40649b9fa807c6e64acf358d30340
-
+<ul>
+<li>比特幣Bitcoin: 31xcuLCmAWuF8CoYvcSd4cGaekvAgGzfkW</li>
+<li>乙太幣Etherum: 0x87206b80d9e40649b9fa807c6e64acf358d30340</li>
+</ul>
