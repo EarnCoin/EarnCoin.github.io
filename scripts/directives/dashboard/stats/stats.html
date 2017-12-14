@@ -16,8 +16,21 @@
         </div>
        
             <div class="panel-footer">
-                <a href="{{homepage}}" target="_blank"><span class="pull-left"><i class="fa fa-money"></i>  <b>{{title}}</b></span></a>
-                
+				<div ng-if="homepage">
+					<a href="{{homepage}}" target="_blank">
+					<span class="pull-left">
+						<i class="fa fa-money"></i>
+					<b>{{title}}</b>
+						</span></a>
+                </div>
+				<div ng-if="!homepage">
+					<a href="#" >
+					<span class="pull-left">
+						<i class="fa fa-times"></i>
+					<del>{{title}}</del>
+						</span></a>
+                </div>
+				
 				<!--span class="pull-right"><i class="fa fa-download"></i></span-->
                 <div class="clearfix"></div>
             </div>
