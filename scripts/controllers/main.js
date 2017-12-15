@@ -19,7 +19,7 @@ angular.module('sbAdminApp')
 	  
 		for (var i=0; i<data.length; i++){
 			var details ={};
-				if (data[i].name.indexOf(".faucets")!=-1){
+				if (data[i].name.indexOf(".faucet")!=-1){
     					try{
 	        				var g_Description = JSON.parse(data[i].description);
 						details["title"]= g_Description.title;
