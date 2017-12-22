@@ -2,17 +2,17 @@
     <div class="panel panel-{{colour}}" ng-class="{'active': isActive}">
         <div class="panel-heading">
             <div class="row">	
+			
+			<div ng-if="homepage"><a href="{{homepage}}" target="_blank" ></div>
 				<div class="col-xs-3">
-                  <div ng-if="homepage"><a href="{{homepage}}" target="_blank"></div>
 						<img src="https://raw.githubusercontent.com/earncoin/{{name}}/{{branch}}/icon.png"
-					  style="width:80px; height:80px;">
-					<div ng-if="homepage"></a></div>
+					  style="width:80px; height:80px;" />					
 				</div>
 				
-                <div class="col-xs-9 text-right">
+                <div class="col-xs-9 text-right description">
                     {{description}}
                 </div>			
- 
+			<div ng-if="homepage"></a></div>
             </div>
         </div>
        
@@ -20,7 +20,7 @@
 			<div ng-switch="cat">
 				
 				<div ng-switch-when="Bitcoin">		
-						<a href="#" ng-click="open(name,homepage)" >
+						<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Details(詳細)">
 						<span class="pull-left">
 							<i class="fa fa-btc"></i>
 						<b>{{title}}</b>
@@ -28,14 +28,14 @@
 				 </div>
 				
 				<div ng-switch-when="詐騙">
-					<a href="#" ng-click="open(name,homepage)" >
+					<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Details(詳細)">
 					<span class="pull-left">
 						<i class="fa fa-times"></i>
 					<del>{{title}}</del>
 						</span></a>
                 </div>
 				<div ng-switch-when="Wallet">
-					<a href="#" ng-click="open(name,homepage)" >
+					<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Details(詳細)">
 					<span class="pull-left">
 						<i class="fa fa-link"></i>
 						{{title}}
@@ -43,7 +43,7 @@
                 </div>
 				
 				 <div ng-switch-default>		
-						<a href="#" ng-click="open(name,homepage)" >
+						<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Details(詳細)">
 						<span class="pull-left">
 							<i class="fa fa-money"></i>
 						<b>{{title}}</b>

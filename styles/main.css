@@ -27,6 +27,10 @@ body {
 	opacity: 0.2 !important;
 }
 
+.description{
+	color:#fff;
+}
+
 /* Custom page footer 
 .footer {
   padding-top: 19px;
