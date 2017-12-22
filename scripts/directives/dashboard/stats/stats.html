@@ -2,12 +2,14 @@
     <div class="panel panel-{{colour}}" ng-class="{'active': isActive}">
         <div class="panel-heading">
             <div class="row">	
-            <div class="col-xs-3">
-                   <a href="#" ng-click="open(name,homepage)"><img src="https://raw.githubusercontent.com/earncoin/{{name}}/{{branch}}/icon.png"
-					  style="width:80px; height:80px;"></a>
-                </div>
+				<div class="col-xs-3">
+                  <div ng-if="homepage"><a href="{{homepage}}" target="_blank"></div>
+						<img src="https://raw.githubusercontent.com/earncoin/{{name}}/{{branch}}/icon.png"
+					  style="width:80px; height:80px;">
+					<div ng-if="homepage"></a></div>
+				</div>
+				
                 <div class="col-xs-9 text-right">
-                    <!--div class="huge">{{number}}</div-->
                     {{description}}
                 </div>			
  
@@ -18,7 +20,7 @@
 			<div ng-switch="cat">
 				
 				<div ng-switch-when="Bitcoin">		
-						<a href="{{homepage}}" target="_blank"  >
+						<a href="#" ng-click="open(name,homepage)" >
 						<span class="pull-left">
 							<i class="fa fa-btc"></i>
 						<b>{{title}}</b>
@@ -26,14 +28,14 @@
 				 </div>
 				
 				<div ng-switch-when="詐騙">
-					<a href="{{homepage}}" target="_blank"  >
+					<a href="#" ng-click="open(name,homepage)" >
 					<span class="pull-left">
 						<i class="fa fa-times"></i>
 					<del>{{title}}</del>
 						</span></a>
                 </div>
 				<div ng-switch-when="Wallet">
-					<a href="{{homepage}}" target="_blank">
+					<a href="#" ng-click="open(name,homepage)" >
 					<span class="pull-left">
 						<i class="fa fa-link"></i>
 						{{title}}
@@ -41,7 +43,7 @@
                 </div>
 				
 				 <div ng-switch-default>		
-						<a href="{{homepage}}" target="_blank"  >
+						<a href="#" ng-click="open(name,homepage)" >
 						<span class="pull-left">
 							<i class="fa fa-money"></i>
 						<b>{{title}}</b>
