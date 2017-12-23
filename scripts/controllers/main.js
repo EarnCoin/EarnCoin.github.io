@@ -7,9 +7,9 @@
  * Controller of the sbAdminApp
  */
 angular.module('sbAdminApp')
-  .controller('MainCtrl', function( $scope, $position, $http ) {
+  .controller('MainCtrl', function( $scope, $rootScope, $http ) {
 
-	
+	$rootScope.apps ="in case price page";
 
 	//get my all repos
 	$http.get("https://api.github.com/users/earncoin/repos")
@@ -19,7 +19,7 @@ angular.module('sbAdminApp')
 	  
 		for (var i=0; i<data.length; i++){
 			var details ={};
-				if (data[i].name.indexOf(".faucet")!=-1){
+				if (data[i].name.indexOf(".bitcoin")!=-1){
     					try{
 	        				var g_Description = JSON.parse(data[i].description);
 						details["title"]= g_Description.title;
@@ -36,7 +36,7 @@ angular.module('sbAdminApp')
 				}
 		}
 	  
-		$scope.apps = apps;
+		$rootScope.apps = apps;
 	});
 
   });
