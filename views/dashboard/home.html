@@ -18,7 +18,8 @@
 		<div class="row">	
 			<stats ng-repeat="item in apps | filter:searchKeyword | orderBy:'cat'"  
 				name="{{item.name}}" branch="{{item.default_branch}}" 
-				title="{{item.title}}" colour="primary" cat="{{item.cat}}" description="{{item.description}}" homepage="{{item.homepage}}" >
+				title="{{item.title}}" colour="primary" cat="{{item.cat}}" description="{{item.description}}"
+				homepage="{{item.homepage}}" time="{{item.time}}" reward="{{item.reward}}">
 			</stats>
 		</div>
 		<!-- /.row -->

@@ -187,7 +187,23 @@ body {
     padding-left: 52px;
 }
 
+
 @media(min-width:768px) {
+    .sidebar {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        margin-top: 135px;
+    }
+
+    .navbar-top-links .dropdown-messages,
+    .navbar-top-links .dropdown-tasks,
+    .navbar-top-links .dropdown-alerts {
+        margin-left: auto;
+    }
+}
+
+@media(min-width:1090px) {
     .sidebar {
         z-index: 1;
         position: absolute;
