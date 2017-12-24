@@ -27,8 +27,7 @@ angular.module('sbAdminApp')
 		'reward':'@'
   		},
       controller:function($scope,  $modal, $q, $http, $timeout){
-
-
+	  
 		//open github repo readme as makedown view in modal
 		$scope.open = function ( title, homepage ) {
 			

@@ -16,10 +16,10 @@ angular.module('sbAdminApp')
       scope: {
       },
       controller:function($scope, $rootScope,  $http){
-
-		$scope.cat = function ( type ) {
 		
+		document.getElementById("coinprice").focus();
 		
+		$scope.cat = function ( type ) {	
 		if (type!=""){
 			//alert("."+ type);
 			//get type
