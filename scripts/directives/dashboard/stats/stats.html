@@ -3,7 +3,7 @@
         <div class="panel-heading" ng-class="{'active': isActive}">
             <div class="row">	
 			
-			<a href="{{homepage}}" target="_blank"  ng-click="countdown(time)">
+			<a href="{{homepage}}" target="_blank"  ng-click="countdown(time)" data-toggle="tooltip" title="Go {{title}}">
 				<div class="col-xs-3">
 						<img src="https://raw.githubusercontent.com/earncoin/{{name}}/{{branch}}/icon.png"
 					  style="width:80px; height:80px;" />					
@@ -35,11 +35,12 @@
         </div>
        
             <div class="panel-footer">
-			<div ng-switch="cat">
 				
+	
+			<div ng-switch="cat">		
 				<div ng-switch-when="Bitcoin">		
-						<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="{{title}} details">
-						<span class="pull-left">
+						<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Get {{title}} Details">
+							<span class="pull-left">
 							<i class="fa fa-btc"></i>
 						<b>{{title}}</b>
 							</span>
@@ -50,15 +51,16 @@
 				 </div>
 				
 				<div ng-switch-when="Scam">
-					<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="{{title}} details">
-					<span class="pull-left">
+					<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Get {{title}} Details">
+						<span class="pull-left">						
 						<i class="fa fa-times"></i>
-					<del>{{title}}</del>
-						</span></a>
+						<del>{{title}}</del>
+						</span>
+					</a>
                 </div>
 				<div ng-switch-when="Wallet">
-					<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="{{title}} details">
-					<span class="pull-left">
+					<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Get {{title}} Details">
+						<span class="pull-left">					
 						<i class="fa fa-link"></i>
 						{{title}}
 						</span>
@@ -66,8 +68,8 @@
                 </div>
 				
 				 <div ng-switch-default>		
-						<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="{{title}} details">
-						<span class="pull-left">
+						<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Get {{title}} Details">
+							<span class="pull-left">						
 							<i class="fa fa-money"></i>
 						<b>{{title}}</b>
 							</span>
