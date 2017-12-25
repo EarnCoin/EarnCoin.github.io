@@ -16,13 +16,33 @@ angular.module('sbAdminApp')
       scope: {
       },
       controller:function($scope, $rootScope,  $http){
+        //$scope.selectedMenu = 'dashboard.price';
+		document.getElementById("bitcoin").focus();
+        $scope.collapseVar = 2;
 		
-		document.getElementById("coinprice").focus();
+        $scope.multiCollapseVar = 0;
+        
+        $scope.check = function(x){
+          
+          if(x==$scope.collapseVar)
+            $scope.collapseVar = 0;
+          else
+            $scope.collapseVar = x;
+        };
+        
+        $scope.multiCheck = function(y){
+          
+          if(y==$scope.multiCollapseVar)
+            $scope.multiCollapseVar = 0;
+          else
+            $scope.multiCollapseVar = y;
+        };
 		
-		$scope.cat = function ( type ) {	
+		
+		$scope.cat = function( type ) {	
+		
 		if (type!=""){
-			//alert("."+ type);
-			//get type
+
 			$http.get("https://api.github.com/users/earncoin/repos")
 			  .success(function (data) {
 
@@ -63,9 +83,9 @@ angular.module('sbAdminApp')
 		}
 			//$rootScope.searchKeyword = { cat: type };
 			return false;
-		}
-
+		};
+		
+		$scope.cat("bitcoin");
       }
     }
   }]);
-

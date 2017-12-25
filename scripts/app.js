@@ -73,6 +73,10 @@ angular
             }
         }
     })
+	.state('dashboard.price',{
+        templateUrl:'views/dashboard/price.html',
+        url:'/price'
+    })
      .state('dashboard.home',{
         url:'/home',
         controller: 'MainCtrl',
@@ -90,7 +94,7 @@ angular
           }
         }
       })
- 
+
   }]);
 
     

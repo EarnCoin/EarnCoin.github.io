@@ -47,7 +47,7 @@ body {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #337ab7;
+  background-color: #333;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -55,20 +55,20 @@ body {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #777;
 }
 
 
 #side-menu>li>a {
 	font-weight: bold !important;
-	color: #ddd !important;
+	color: #fff !important;
 }
 
 #side-menu>li>a:focus {
     color: #343a40 !important;
 }
 
-#side-menu>li>a:hover {
+#side-menu>li>a:hover, .sidebar .nav-second-level li a:hover  {
     color: #777 !important;
 }
 
@@ -172,12 +172,16 @@ body {
 
 .sidebar .nav-second-level li a {
     padding-left: 37px;
+	color:#fff;
 }
 
 .sidebar .nav-third-level li a {
     padding-left: 52px;
 }
 
+.active {
+	color:#eee;
+}
 
 @media(min-width:768px) {
     .sidebar {
