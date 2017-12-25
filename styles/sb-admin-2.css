@@ -188,7 +188,7 @@ body {
         z-index: 1;
         position: absolute;
         width: 250px;
-        margin-top: 135px;
+        margin-top: 218px;
     }
 
     .navbar-top-links .dropdown-messages,
@@ -211,16 +211,23 @@ body {
 	}
 	
 		#page-wrapper{
-		margin-top: 135px;
+		margin-top: 218px;
 	}
 	
 }
 
+@media(min-width:795px) {
+    .sidebar {
+        margin-top: 135px;
+    }
+
+		#page-wrapper{
+		margin-top: 135px;
+	}
+}
+
 @media(min-width:1090px) {
     .sidebar {
-        z-index: 1;
-        position: absolute;
-        width: 250px;
         margin-top: 85px;
     }
 
