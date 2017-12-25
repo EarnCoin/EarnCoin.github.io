@@ -30,8 +30,8 @@ body {
 	color: #ddd !important;
 }
 
-.navbar-right>li>a:hover {
-    color: #777 !important;
+.navbar-right>li>a:hover, .sidebar li a:hover, .sidebar .nav-second-level li a:hover  {
+    color: #fff !important;
 }
 
 .navbar-default {
@@ -58,16 +58,16 @@ body {
   background-color: #777;
 }
 
-
+You may not have permission to access the repository or the repository may have been archived.
 
 
 //#side-menu>li>a:focus {
 //    color: #343a40 !important;
 //}
 
-#side-menu>li>a:hover, .sidebar .nav-second-level li a:hover  {
-    color: #777 !important;
-}
+//.sidebar li a:hover, .sidebar .nav-second-level li a:hover  {
+//    color: #fff !important;
+//}
 
 .sidebar li a:focus, .sidebar .nav-second-level li a:focus  {
     color: #343a40 !important;
@@ -191,7 +191,9 @@ body {
     padding-left: 52px;
 }
 
-
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #31708f !important;
+}
 
 @media(min-width:768px) {
     .sidebar {
