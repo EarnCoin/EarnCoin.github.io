@@ -2,7 +2,7 @@
  * Start Bootstrap - SB Admin 2 Bootstrap Admin Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+*/
 
 body {
     background-color: #f8f8f8;
@@ -74,15 +74,6 @@ body {
 
 .panel-primary>.panel-heading {
     background-color: #343a40 !important;
-}
-
-@media(min-width:768px) {
-    #page-wrapper {
-        position: inherit;
-        margin: 0 0 0 250px;
-        padding: 0 30px;
-        border-left: 1px solid #e7e7e7;
-    }
 }
 
 
@@ -201,6 +192,24 @@ body {
     .navbar-top-links .dropdown-alerts {
         margin-left: auto;
     }
+	
+	    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        border-left: 1px solid #e7e7e7;
+    }
+	
+	.navbar-static-top {
+		top:0;
+		position:fixed;
+		width:100%;
+	}
+	
+		#page-wrapper{
+		margin-top: 135px;
+	}
+	
 }
 
 @media(min-width:1090px) {
@@ -211,11 +220,9 @@ body {
         margin-top: 85px;
     }
 
-    .navbar-top-links .dropdown-messages,
-    .navbar-top-links .dropdown-tasks,
-    .navbar-top-links .dropdown-alerts {
-        margin-left: auto;
-    }
+		#page-wrapper{
+		margin-top: 85px;
+	}
 }
 
 .btn-outline {
