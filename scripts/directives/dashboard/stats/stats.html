@@ -3,7 +3,7 @@
         <div class="panel-heading" ng-class="{'opacity': isActive}">
             <div class="row">	
 			
-			<a href="{{homepage}}" target="_blank"  ng-click="countdown(time)" data-toggle="tooltip" title="Go {{title}}">
+			<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Get {{title}} Details">
 				<div class="col-xs-3">
 						<img src="https://raw.githubusercontent.com/earncoin/{{name}}/{{branch}}/icon.png"
 					  style="width:80px; height:80px;" />					
@@ -38,45 +38,62 @@
 				
 	
 			<div ng-switch="cat">		
-				<div ng-switch-when="Bitcoin">		
-						<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Get {{title}} Details">
+				<div ng-switch-when="Bitcoin">	
+						<a href="{{homepage}}" target="_blank"  ng-click="countdown(time)" >
 							<span class="pull-left">
 							<i class="fa fa-btc"></i>
 						<b>{{title}}</b>
 							</span>
-						</a>
+						
 						<span class="pull-right">
-							<u>{{counter}}</u>
+							<div ng-if="counter">
+								<i>{{counter}}</i>
+							</div>
+							<div ng-if="!counter">
+								<i class="fa fa-arrow-circle-right"></i>
+							</div>
 						</span>
+						</a>
 				 </div>
 				
 				<div ng-switch-when="Scam">
-					<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Get {{title}} Details">
+					<a href="{{homepage}}" target="_blank">
 						<span class="pull-left">						
 						<i class="fa fa-times"></i>
 						<del>{{title}}</del>
 						</span>
+						<span class="pull-right">
+							<i class="fa fa-arrow-circle-right"></i>
+						</span>
 					</a>
                 </div>
 				<div ng-switch-when="Wallet">
-					<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Get {{title}} Details">
+					<a href="{{homepage}}" target="_blank">
 						<span class="pull-left">					
 						<i class="fa fa-link"></i>
 						{{title}}
+						</span>
+						<span class="pull-right">
+							<i class="fa fa-arrow-circle-right"></i>
 						</span>
 					</a>
                 </div>
 				
 				 <div ng-switch-default>		
-						<a href="#" ng-click="open(name,homepage)" data-toggle="tooltip" title="Get {{title}} Details">
+						<a href="{{homepage}}" target="_blank" ng-click="countdown(time)" >
 							<span class="pull-left">						
 							<i class="fa fa-money"></i>
-						<b>{{title}}</b>
+							<b>{{title}}</b>
 							</span>
-						</a>
-						<span class="pull-right">
-							<u>{{counter}}</u>
-						</span>						
+							<span class="pull-right">
+							<div ng-if="counter">
+								<i>{{counter}}</i>
+							</div>
+							<div ng-if="!counter">
+								<i class="fa fa-arrow-circle-right"></i>
+							</div>
+							</span>
+						</a>					
 				 </div>
 				 
 			</div>

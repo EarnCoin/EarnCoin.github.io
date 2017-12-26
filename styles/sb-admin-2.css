@@ -20,6 +20,19 @@ body {
     background-color: #F5F5F5;
 }
 
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color:#337ab7;
+}
+.navbar-default .navbar-toggle{
+	border-color: #337ab7;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #ddd;
+}
+
 .navbar-brand{
  color: #E5E5E5 !important;
  font-size: 24px !important;
