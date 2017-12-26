@@ -1,29 +1,33 @@
 
- <link href="styles/bundle_github.css" rel="stylesheet" type="text/css">
+ <!--link href="styles/bundle_github.css" rel="stylesheet" type="text/css"-->
 
-	 <div class="modal-header">
-		    <button  class="close" ng-click="cancel()" aria-hidden="true">&times;</button>
-		<!--button class="btn btn-primary"  style="float:right">Share</button--> 
+ <div class="modal-header">
+	<button  class="close" ng-click="cancel()" ><i class="fa fa-times fa-2x" aria-hidden="true"></i></button>
+	
 	<div ng-if="homepage">		
-	<ul class="nav navbar-top-links navbar-right">
-	<li>
-	<a href="https://www.facebook.com/sharer/sharer.php?u={{homepage}}" title="Share on Facebook" target="_blank"><img src="images/flat_web_icon_set/color/Facebook.png"></a>
-	</li>
-	<li>
-	<a href="https://twitter.com/intent/tweet?source={{homepage}}&text={{title}}:%20{{homepage}}" target="_blank" title="Tweet"><img src="images/flat_web_icon_set/color/Twitter.png"></a>
-	</li>
-	<li>
-	<a href="https://plus.google.com/share?url={{homepage}}" target="_blank" title="Share on Google+"><img src="images/flat_web_icon_set/color/Google+.png"></a>
-	</li>
-	<li>
-	 <a href="http://line.naver.jp/R/msg/text/?{{title}}%0A{{homepage}}" target="_blank"><img src="images/flat_web_icon_set/color/Line.png" alt="用LINE傳送" /></a>
-	</li>
-	</ul>
-</div>
+		<ul class="nav navbar-top-links navbar-right">
+		<li>
+		<a href="https://www.facebook.com/sharer/sharer.php?u={{homepage}}" title="Share on Facebook" target="_blank"><img src="images/flat_web_icon_set/color/Facebook.png"></a>
+		</li>
+		<li>
+		<a href="https://twitter.com/intent/tweet?source={{homepage}}&text={{title}}:%20{{homepage}}" target="_blank" title="Tweet"><img src="images/flat_web_icon_set/color/Twitter.png"></a>
+		</li>
+		<li>
+		<a href="https://plus.google.com/share?url={{homepage}}" target="_blank" title="Share on Google+"><img src="images/flat_web_icon_set/color/Google+.png"></a>
+		</li>
+		<li>
+		 <a href="http://line.naver.jp/R/msg/text/?{{title}}%0A{{homepage}}" target="_blank"><img src="images/flat_web_icon_set/color/Line.png" alt="用LINE傳送" /></a>
+		</li>
+		</ul>
+	</div>
 		<!--div id="markdown" class="wikistyle">{{details}}</div-->
 		<div id="markdown" class="wikistyle" ng-bind-html="details"></div>
 		<div ng-if="homepage">
-		<a href="{{homepage}}" target="_blank" class="btn btn-primary" role="button" >Register(註冊)</a> 
+			<a href="{{homepage}}" target="_blank" class="btn btn-danger" role="button" >			
+					<i class="fa fa-user" aria-hidden="true"></i>Register (註冊)
+			</a>
 		</div>
-     </div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+			
+</div>
 
