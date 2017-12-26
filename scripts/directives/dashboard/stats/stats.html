@@ -11,14 +11,6 @@
 				
                 <div class="col-xs-9 text-right description">
 					<div ng-switch="cat">
-						<div ng-switch-when="Bitcoin">
-							<div>{{time}} mins</div>
-							<div>{{reward}} Satoshis</div>
-						</div>
-						<div ng-switch-when="BCH">
-							<div>{{time}} mins</div>
-							<div>{{reward}} Satoshis</div>
-						</div>
 						<div ng-switch-when="Ether">
 							<div>{{time}} mins</div>
 							<div>{{reward}} Gweis</div>
@@ -27,6 +19,10 @@
 							<div>{{time}} mins</div>
 							<div>{{reward}} Litoshis</div>
 						</div>
+						<div ng-switch-default>
+							<div>{{time}} mins</div>
+							<div>{{reward}} Satoshis</div>
+						</div>						
 					</div>	
                     {{description}}
                 </div>			
