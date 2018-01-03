@@ -44,7 +44,7 @@ angular.module('sbAdminApp')
 		
 		if (type!=""){
 
-			$http.get("https://api.github.com/users/earncoin/repos")
+			$http.get("https://api.github.com/users/earncoin/repos?per_page=100")
 			  .success(function (data) {
 
 			  var apps=[];
