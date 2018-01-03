@@ -43,10 +43,14 @@ angular.module('sbAdminApp')
 		$scope.cat = function( type ) {	
 		
 		if (type!=""){
+			//https://api.github.com/users/earncoin/repos?per_page=100
+			//console.log("https://api.github.com/search/repositories?q=."+type+"+user:earncoin");
+			$http.get("https://api.github.com/search/repositories?q=."+type+"+user:earncoin")
+			  .success(function (obj) {
 
-			$http.get("https://api.github.com/users/earncoin/repos?per_page=100")
-			  .success(function (data) {
-
+			  var data = obj.items;
+			
+			  //console.log(data.items);
 			  var apps=[];
 			  
 				for (var i=0; i<data.length; i++){
@@ -75,7 +79,7 @@ angular.module('sbAdminApp')
 						
 						}
 				}
-			  
+				
 				$rootScope.apps = apps;
 			});
 		}
