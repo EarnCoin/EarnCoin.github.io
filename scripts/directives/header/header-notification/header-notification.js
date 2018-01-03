@@ -17,6 +17,9 @@ angular.module('sbAdminApp')
 
 	//open github repo readme as makedown view in modal
 	$scope.open = function () {
+		
+		if ( modalInstance != null )
+				return;
 			
 	    var modalInstance = $modal.open({
 			templateUrl: "scripts/directives/dashboard/stats/appdetails/app-detail.html",
