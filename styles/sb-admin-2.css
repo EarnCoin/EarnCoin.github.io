@@ -15,7 +15,7 @@ body {
 }
 
 #page-wrapper {
-    padding: 0 15px;
+    padding: 15px;
     min-height: 568px;
     background-color: #F5F5F5;
 }
@@ -213,7 +213,7 @@ You may not have permission to access the repository or the repository may have 
         z-index: 1;
         position: absolute;
         width: 250px;
-        margin-top: 218px;
+        margin-top: 219px;
     }
 
     .navbar-top-links .dropdown-messages,
@@ -236,28 +236,59 @@ You may not have permission to access the repository or the repository may have 
 	}
 	
 		#page-wrapper{
-		margin-top: 218px;
+		margin-top: 233px;
 	}
 	
 }
 
+
+@media(min-width:780px) {
+    .sidebar {
+        margin-top: 169px;
+    }
+
+		#page-wrapper{
+		margin-top: 180px;
+	}
+}
+/*
 @media(min-width:795px) {
+    .sidebar {
+        margin-top: 145px;
+    }
+
+		#page-wrapper{
+		margin-top: 160px;
+	}
+}
+*/
+@media(min-width:995px) {
+ .sidebar {
+        margin-top: 135px;
+    }
+
+		#page-wrapper{
+		margin-top: 150px;
+	}
+}
+/*
+@media(min-width:1090px) {
     .sidebar {
         margin-top: 135px;
     }
 
 		#page-wrapper{
-		margin-top: 135px;
+		margin-top: 150px;
 	}
 }
-
-@media(min-width:1090px) {
+*/
+@media(min-width:1288px) {
     .sidebar {
         margin-top: 85px;
     }
 
 		#page-wrapper{
-		margin-top: 85px;
+		margin-top: 100px;
 	}
 }
 
