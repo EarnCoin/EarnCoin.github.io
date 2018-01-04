@@ -1,8 +1,9 @@
 # QickStart(直接開始賺幣)
-<p>STEP 1<br />
+
+*STEP 1
 Choose what cypto-coin you want
 <br />
-STEP 2 <br />
+*STEP 2
 Goto a site to claim and then wait for countdown
 </p>
 <img src="https://raw.githubusercontent.com/EarnCoin/EarnCoin.github.io/master/images/quickstart.png" width="100%" />
