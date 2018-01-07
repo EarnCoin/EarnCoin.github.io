@@ -213,7 +213,7 @@ You may not have permission to access the repository or the repository may have 
         z-index: 1;
         position: absolute;
         width: 250px;
-        margin-top: 219px;
+        margin-top: 116px;
     }
 
     .navbar-top-links .dropdown-messages,
@@ -236,12 +236,12 @@ You may not have permission to access the repository or the repository may have 
 	}
 	
 		#page-wrapper{
-		margin-top: 233px;
+		margin-top: 130px;
 	}
 	
 }
 
-
+/*
 @media(min-width:780px) {
     .sidebar {
         margin-top: 169px;
@@ -251,6 +251,7 @@ You may not have permission to access the repository or the repository may have 
 		margin-top: 180px;
 	}
 }
+*/
 /*
 @media(min-width:795px) {
     .sidebar {
@@ -261,14 +262,14 @@ You may not have permission to access the repository or the repository may have 
 		margin-top: 160px;
 	}
 }
-*/
-@media(min-width:995px) {
+995px*/
+@media(min-width:924px) {
  .sidebar {
-        margin-top: 135px;
+        margin-top: 66px;
     }
 
 		#page-wrapper{
-		margin-top: 150px;
+		margin-top: 80px;
 	}
 }
 /*
@@ -281,17 +282,17 @@ You may not have permission to access the repository or the repository may have 
 		margin-top: 150px;
 	}
 }
-*/
+
 @media(min-width:1288px) {
     .sidebar {
-        margin-top: 85px;
+        margin-top: 66px;
     }
 
 		#page-wrapper{
-		margin-top: 100px;
+		margin-top: 80px;
 	}
 }
-
+*/
 .btn-outline {
     color: inherit;
     background-color: transparent;

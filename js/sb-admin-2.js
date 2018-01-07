@@ -45,7 +45,7 @@ $(function() {
 		/*console.info('Action:', e.action);
 		console.info('Text:', e.text);
 		console.info('Trigger:', e.trigger);*/
-		alert("Copied: " + e.text );
+		alert("Wallet Copied: " + e.text );
 		e.clearSelection();
 	});
 

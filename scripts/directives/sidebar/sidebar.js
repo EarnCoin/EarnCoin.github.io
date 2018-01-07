@@ -15,7 +15,7 @@ angular.module('sbAdminApp')
       replace: true,
       scope: {
       },
-      controller:function($scope, $rootScope,  $http){
+      controller:function($scope, $rootScope,  $http , $location , $anchorScroll){
         //$scope.selectedMenu = 'dashboard.price';
 		$("#bitcoin").focus();
 		
@@ -41,6 +41,9 @@ angular.module('sbAdminApp')
 		
 		
 		$scope.cat = function( type ) {	
+		
+
+		
 		
 		if (type!=""){
 			//https://api.github.com/users/earncoin/repos?per_page=100
@@ -86,7 +89,7 @@ angular.module('sbAdminApp')
 		else{
 			$rootScope.apps ="";
 		}
-			//$rootScope.searchKeyword = { cat: type };
+	
 			return false;
 		};
 		

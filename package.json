@@ -8,8 +8,7 @@
     "height": 800,
     "min_width": 384,
     "min_height": 640,
-    "position": "center",
-    "toolbar": true
+    "position": "center"
   },
   "chromium-args": "--child-clean-exit",
   "dependencies": {

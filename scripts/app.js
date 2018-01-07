@@ -21,7 +21,7 @@ angular
       events:false,
     });
 
-    $urlRouterProvider.otherwise('/dashboard/home');
+    $urlRouterProvider.otherwise('/dashboard/home#page-wrapper');
 
     $stateProvider
       .state('dashboard', {
