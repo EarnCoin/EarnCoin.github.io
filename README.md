@@ -19,9 +19,23 @@
 
 
 ## 申請網路錢包
-Check Wallets 
-
-## 複製錢包地址開始賺錢
+台灣<br /> 
+<a href="https://www.bitoex.com/" target="_blank">幣託</a><br /> 
+<a href="https://www.maicoin.com/" target="_blank">Maicoin</a>
+<p>TOP 1 <a href="https://coinomi.com/" rel="nofollow noopener">Coinomi</a><br>
+<img src="https://steemitimages.com/0x0/https://cdn.geckoandfly.com/wp-content/uploads/2016/12/coinomi.jpg"></p>
+<span style="box-sizing: inherit; vertical-align: inherit;"><span style="box-sizing: inherit; vertical-align: inherit;">Coinomi是altcoin錢包的絕對贏家。</span><span style="box-sizing: inherit; vertical-align: inherit;">目前為止，Coinomi支持列表中任何一個錢包中的大多數加密貨幣。</span><span style="box-sizing: inherit; vertical-align: inherit;">它內置了shapeshift.io交換，並且完美無瑕。</span><span style="box-sizing: inherit; vertical-align: inherit;">您可以清楚地了解所有的餘額，而Coinomi結合了這種餘額，因此您可以確切地看到您的加密值是多少。</span><span style="box-sizing: inherit; vertical-align: inherit;">Coinomi是開源的，將您的私鑰存儲在本地並加密它們。</span><span style="box-sizing: inherit; vertical-align: inherit;">這使得它成為一個非常安全的錢包。</span><span style="box-sizing: inherit; vertical-align: inherit;">他們在隱私方面很有幫助，他們的軟件是建立在確保沒有人能夠追溯到您的交易的基礎上的。</span><span style="box-sizing: inherit; vertical-align: inherit;">唯一的缺點：目前只能在android上使用。</span><span style="box-sizing: inherit; vertical-align: inherit;">他們已經宣布，iOS和桌面客戶端即將到來。</span><span style="box-sizing: inherit; vertical-align: inherit;">一旦在這裡，其他錢包將有很多工作要趕上Coinomi。</span></span></div>
+<div style="box-sizing: inherit; font-size: 19.2px; line-height: 28.8px; margin-bottom: 1.5rem; padding: 0px; text-rendering: optimizeLegibility;">
+<span style="box-sizing: inherit; font-weight: 600; line-height: inherit;">支持硬幣（64 !!）</span><span style="box-sizing: inherit; vertical-align: inherit;">：BTC，ABN，AC，AUR，BTA，BELA，XBC，BLK，BRIT，CDN，CCN，CLAM，CLUB，COMP，DASH，DGB，DOGE，DGC，EDR，EFL，EMC2， ETC，EXP，FTC，GAME，GCR，GRC，NLG，INSN，IOP，JUM，LDCN，LBRY，LTC，MONA，XMY，NMC，NAV，NEOS，NVC，USNBT，NSR， PSB，PIVX，POSW，POT，RDD，RICHX，RBY，SDC，SMLY，<span style="font-size: 19.2px;">SLR</span>，STRAT，SYS，UNO，XVG，VRT，VASH，ZEC，XZC&nbsp;</span><br />
+<span style="box-sizing: inherit; font-weight: 600; line-height: inherit;">錢包類型</span><span style="box-sizing: inherit; vertical-align: inherit;">：離線儲存(Cold&nbsp; Storage)，加密</span><br />
+<span style="box-sizing: inherit; font-weight: 600; line-height: inherit;">桌面</span><span style="box-sizing: inherit; vertical-align: inherit;">：否-即將推出</span><br />
+<span style="box-sizing: inherit; font-weight: 600; line-height: inherit;">手機</span><span style="box-sizing: inherit; vertical-align: inherit;">：是的 - 僅適用</span><br />
+<span style="box-sizing: inherit; font-weight: 600; line-height: inherit;">於</span><span style="box-sizing: inherit; vertical-align: inherit;"><span style="box-sizing: inherit; vertical-align: inherit;">&nbsp;android，iOS很快</span><span style="box-sizing: inherit; font-weight: 600; line-height: inherit;"><span style="box-sizing: inherit; vertical-align: inherit;">內置交換</span></span><span style="box-sizing: inherit; vertical-align: inherit;">：是</span></span><br />
+<span style="box-sizing: inherit; font-weight: 600; line-height: inherit;">安全性</span><span style="box-sizing: inherit; vertical-align: inherit;">：非常好</span><br />
+<span style="box-sizing: inherit; font-weight: 600; line-height: inherit;">易用性</span><span style="box-sizing: inherit; vertical-align: inherit;">：非常容易</span><br />
+<span style="box-sizing: inherit; font-weight: 600; line-height: inherit;">開源</span><span style="box-sizing: inherit; vertical-align: inherit;">：是</span><br />
+<span style="box-sizing: inherit; font-weight: 600; line-height: inherit;">網站</span><span style="box-sizing: inherit; vertical-align: inherit;"><span style="box-sizing: inherit; vertical-align: inherit;">：</span><a href="https://coinomi.com/" rel="nofollow noopener" style="background-color: transparent; box-sizing: inherit; color: #1fbf8f; line-height: inherit; text-decoration-line: none; transition: all 0.2s ease-in-out;"><span style="box-sizing: inherit; vertical-align: inherit;">https</span></a><span style="box-sizing: inherit; vertical-align: inherit;">&nbsp;:&nbsp;</span></span><a href="https://coinomi.com/" rel="nofollow noopener" style="background-color: transparent; box-sizing: inherit; color: #1fbf8f; line-height: inherit; text-decoration-line: none; transition: all 0.2s ease-in-out;">//coinomi.com</a></div>
+<div style="box-sizing: inherit; font-size: 19.2px; line-height: 28.8px; margin-bottom: 1.5rem; padding: 0px; text-rendering: optimizeLegibility;">
 
 
 ### 打賞Donate
@@ -33,3 +47,5 @@ Check Wallets
 <li>狗幣Dogecoin: AEwzjYwLnUiEPeus2nZsXQqC4chF2EHbzy</li>
 <li>點點幣peercoin: PSLoPaDZMWd2RmqtitH6J6nzBfdbeyWKLp</li>
 </ul>
+
+部分來源：https://steemit.com/cryptocurrency/@mrilevi/the-top-5-best-altcoin-wallets-an-overview
