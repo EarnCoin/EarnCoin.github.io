@@ -48,7 +48,7 @@
 				
 	
 			<div ng-switch="cat">		
-				<div ng-switch-when="Bitcoin">	
+				<!--div ng-switch-when="Bitcoin">	
 						<a href="{{homepage}}" target="_blank"  ng-click="countdown(time)" >
 							<span class="pull-left">
 							<i class="fa fa-btc"></i>
@@ -60,20 +60,20 @@
 								<i>{{counter}}</i>
 							</div>
 							<div ng-if="!counter">
-								<i class="fa fa-arrow-circle-right"></i>
+								<i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>
 							</div>
 						</span>
 						</a>
-				 </div>
+				 </div-->
 				
-				<div ng-switch-when="Scam">
+				<div ng-switch-when="Exchange">
 					<a href="{{homepage}}" target="_blank">
 						<span class="pull-left">						
-						<i class="fa fa-times"></i>
-						<del>{{title}}</del>
+						<i class="fa fa-link"></i>
+						{{title}}
 						</span>
 						<span class="pull-right">
-							<i class="fa fa-arrow-circle-right"></i>
+							<i class="fa fa-arrow-circle-right fa-lg"></i>
 						</span>
 					</a>
                 </div>
@@ -100,7 +100,8 @@
 								<i>{{counter}}</i>
 							</div>
 							<div ng-if="!counter">
-								<i class="fa fa-arrow-circle-right"></i>
+								<i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>
+
 							</div>
 							</span>
 						</a>					

