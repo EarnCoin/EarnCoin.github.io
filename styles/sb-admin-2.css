@@ -53,6 +53,7 @@ body {
 }
 
 #myBtn {
+	opacity: 0.8;	
   display: none;
   position: fixed;
   bottom: 20px;
@@ -60,7 +61,7 @@ body {
   z-index: 99;
   border: none;
   outline: none;
-  background-color:  #31708f;
+  background-color:  #337ab7;
   color: white;
   cursor: pointer;
   padding: 15px;

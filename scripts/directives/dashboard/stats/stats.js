@@ -78,7 +78,7 @@ angular.module('sbAdminApp')
 				$scope.isActive = true;
 				//ng-click="isActive =!isActive"
 				//set to seconds
-				$scope.timer  = duration*60;
+				$scope.timer  = duration*60 + 25; //25s buffer
 				
 				$scope.onTimeout = function(){
 					
